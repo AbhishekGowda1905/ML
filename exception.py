@@ -1,6 +1,7 @@
 import sys
-import logging
-import logger
+#import logger
+#import logging
+from src.logger import logging #Use this when file is outside src file
 
 
 def error_message_detail(error,error_detail:sys):
